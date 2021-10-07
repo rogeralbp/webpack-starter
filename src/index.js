@@ -1,7 +1,6 @@
-import { saludar } from './js/componentes.js';
+import { talkTo } from './js/components';
 import './styles.css';
 
+const name = 'Roger Oporta';
 
-const nombre = 'Fernando';
-
-saludar( nombre );
+talkTo(name);
